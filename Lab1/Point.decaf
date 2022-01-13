@@ -1,0 +1,19 @@
+class Point {
+
+    //x coordinate
+    private int _x;
+
+    //y coordinate
+    private int _y;
+
+    Point(int x, int y) { _x = x; _y = y; }
+
+    int getX() { return _x; }
+    int getY() { return _y; }
+    
+    public int mag_square() {
+      return _x*_x +
+      _y*_y;
+      }
+
+}
