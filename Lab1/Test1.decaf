@@ -1,2 +1,0 @@
-//Here is a comment
-/* additional comment */ class program { void main() { return 0; } }
